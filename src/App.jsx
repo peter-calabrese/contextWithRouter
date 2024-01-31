@@ -15,7 +15,7 @@ function App() {
   };
   return (
     <>
-      <h1>App</h1>
+      <h1>App {state.name}</h1>
       <input value={state.name} onChange={onInput} />
       <Link to='/dashboard'>Dash</Link>
     </>
